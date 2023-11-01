@@ -1,0 +1,135 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+  padding: 20px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.nav-list__item-link{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* HERO SECTION STYLE START */
+
+main{
+    margin-bottom: 200px;
+}
+
+.hero{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 190px;
+    background-color: #A8A6A6; 
+    text-align: center;
+}
+
+.hero-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.hero-title span{
+    margin: 12px 40px 0;
+}
+
+.hero-desc{
+    margin-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-btn{
+    margin-bottom: 80px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #9E9A9A; 
+    cursor:pointer;
+}
+
+.color-types{
+    position: absolute;
+    top: 400px;
+    left: 290px;
+}
+
+.color-types__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-list__item{
+    width: 323px;
+    height: 376px;
+    margin-right: 20px;
+    padding: 80px 25px 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.color-list__item img{
+    margin-bottom: 35px;
+}
+
+.color-list__item h2{
+    margin-bottom:10px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.color-list__item p{
+    color: #010101;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* HERO SECTION STYLE END */
